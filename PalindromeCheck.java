@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class PalindromeCheck{
 	public static void main(String[] args){
 		
-		System.out.println("Enter 0 if you want to enter a 4-digit number. Enter 1 if you would like to have the computer generate it. ");	//prompts about if they want it randomized or custom
+		System.out.println("Enter 0 if you would like to enter a 4-digit number. Enter 1 if you would like to have the computer generate it. ");	//prompts about if they want it randomized or custom
 		Scanner input = new Scanner(System.in);
 		int answer = input.nextInt();
 		String finalStr = "0000";
@@ -31,7 +31,7 @@ public class PalindromeCheck{
 			
 		}
 		else{
-			System.out.println("Thats not one of the options!");	
+			System.out.println("Incorrect input");	
 		}
 		
 		
@@ -46,11 +46,11 @@ public class PalindromeCheck{
 			
 			if(finalStr.charAt(0) == finalStr.charAt(3)){				//Check if first and last char in string are the same
 				if(finalStr.charAt(1) == finalStr.charAt(2)){			//Check if second and third characters match
-					System.out.println(finalNum + " is a palindrome!");
+					System.out.println(finalNum + " is a palindrome");
 				}
 			}
 			else{
-				System.out.println(finalNum + " is not a palindrome.");
+				System.out.println(finalNum + " is not a palindrome");
 			}	
 		}
 	}
