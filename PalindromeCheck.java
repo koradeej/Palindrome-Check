@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class PalindromeCheck{
 	public static void main(String[] args){
 		
-		System.out.println("Enter 0 if you would like to enter a 4-digit number. Enter 1 if you would like to have the computer generate it. ");	//prompts about if they want it randomized or custom
+		System.out.println("Enter 0 if you would like to enter a 4-digit number.  Enter 1 if you would like to have the computer generate it. ");	//prompts about if they want it randomized or custom
 		Scanner input = new Scanner(System.in);
 		int answer = input.nextInt();
 		String finalStr = "0000";
